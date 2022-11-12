@@ -1,0 +1,15 @@
+{
+    "name": "nna/na",
+    "autoload": {
+        "psr-4": {
+            "Config\\": "config/",
+            "Controllers\\": "controllers/",
+            "Models\\": "models/",
+            "Utils\\": "utils/"
+        }
+    },
+    "require": {
+        "ext-pdo": "*",
+        "ext-json": "*"
+    }
+}

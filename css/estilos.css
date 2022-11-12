@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+
+#menues{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: rgb(255, 255, 255);
+    height: 10vh;
+    border-width: 5px;
+}
+
+body{
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.menu{
+    width: auto;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    color: rgb(0, 156, 13);
+}
+
+header{
+    display: flex;
+    justify-content: flex-start;
+    height: 15vh;
+    text-align: center;
+}
+
+hr{
+    border-color: rgb(0, 156, 13);
+}
+
+#banner{
+    width: auto;
+}
+
+#categorias, #cursos{    
+    display: flex;
+    flex-flow: row wrap;
+    width: 70%;
+}
+
+.categoria{
+    width: 46%;
+    height: 42%;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(230, 230, 230, 0.788);
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#notificaciones{
+    display: flex;
+    flex-flow: column wrap;
+    width: 30%;
+    background-color: rgba(230, 230, 230, 0.788);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+
+#principal{
+    display: flex;
+    flex-direction: row;
+    height: 55vh;
+}
+
+.icono{
+    width: 80px;
+}
+footer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 10vh;
+    color: rgb(0, 156, 13);
+}
+
+.noti{
+    height: 40px;
+}
+
+#notificacion{
+    display: flex;
+    flex-direction: row;
+}
+
+#titulo{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.curso{
+    width: 33%;
+    background-color: rgba(230, 230, 230, 0.788);
+    margin-left: 10px;
+}
+
+.cursoimg{
+    width: 100%;
+}
